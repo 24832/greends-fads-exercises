@@ -39,9 +39,9 @@ about an API availability (e.g. Home --> Data --> API)
 
 | Platform | URL | Path to API information |Documentation URL | API URL | Data format |
 |------|-----|-------------------------|------------------|---------|-------------|
-| GBIF | https://www.gbif.org/ |   |   |   |   |
+| GBIF | https://www.gbif.org/ |https://www.gbif.org/developer/summary   |   | https://api.gbif.org/v1/  |  json |
 | Eurostat | https://ec.europa.eu/eurostat/ |   |   |   |   |
-| INE | https://www.ine.pt/ |   |   |   |   |
+| INE | https://www.ine.pt/ |  https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_api&INST=322751522&xlang=pt |   |  {host_url}/ine/xml_indic.jsp?opc1&varcd={varcd_cod}&lang={lang} or {host_url}/ine/json_indicador/pindica.jsp?op=2&varcd={varcd_cod}&Dim1={dim1_cod}&Dim2={dim2_cod}&Dim??={dim??_cod}&lang={lang} |  xml or json |
 | Climate Data Store | https://cds.climate.copernicus.eu/cdsapp#!/home |   |   |   |   |
 | Copernicus Open Access Hub | https://scihub.copernicus.eu/ |   |   |   |   |
 | WMO | https://worldweather.wmo.int/en/home.html |   |   |   |   |
